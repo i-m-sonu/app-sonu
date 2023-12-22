@@ -33,10 +33,10 @@ class home extends StatelessWidget {
             Row(
               children: [
                 SizedBox(
-                  width: 20,
+                  width: 5,
                 ),
                 CircleAvatar(
-                    radius: 60,
+                    radius: 50,
                     backgroundImage: ExactAssetImage("images/sonu.jpeg")),
                 SizedBox(
                   width: 20,
@@ -64,7 +64,7 @@ class home extends StatelessWidget {
               children: [
                 Icon(Icons.phone),
                 SizedBox(
-                  width: 15,
+                  width: 10,
                 ),
                 Text(
                   "+917891056257",
@@ -79,7 +79,7 @@ class home extends StatelessWidget {
               children: [
                 Icon(Icons.mail),
                 SizedBox(
-                  width: 15,
+                  width: 10,
                 ),
                 Text(
                   "sonu170803@gmail.com",
@@ -94,7 +94,7 @@ class home extends StatelessWidget {
               children: [
                 Icon(Icons.school),
                 SizedBox(
-                  width: 15,
+                  width: 10,
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -118,13 +118,13 @@ class home extends StatelessWidget {
               children: [
                 Icon(Icons.temple_hindu_outlined),
                 SizedBox(
-                  width: 15,
+                  width: 10,
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Chandigarh Engineering College,",
+                      "Chandigarh Engineering College",
                       style: TextStyle(fontFamily: 'mono',fontSize: 15),
                     ),
                     Text("Landran", style: TextStyle(fontFamily: 'mono',fontSize: 15),)
@@ -139,7 +139,7 @@ class home extends StatelessWidget {
               children: [
                 Icon(Icons.card_membership),
                 SizedBox(
-                  width: 15,
+                  width: 10,
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -157,7 +157,7 @@ class home extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 20,
+              height: 25,
             ),
             Text(
               "Discription",
@@ -168,17 +168,17 @@ class home extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 10,
+              height: 5,
             ),
             Text(
               "Undergraduate from Chandigarh Engineering College, Landran college with Computer Science Engineering as specialization along with excellent academic scores. Participated in many activities which helped in developing confidence and leadership qualities. Even inculcated strong self-management ability,and good at the breakdown of sales work indicators, with good adaptability and time management ability, can work effectively under high pressure.",
-              style: TextStyle(fontFamily: 'mono'),
+              style: TextStyle(fontFamily: 'mono', fontSize: 11),
               textAlign: TextAlign.justify,
             ),
-            SizedBox(height: 10,),
+            SizedBox(height: 17,),
             Text(
               "Created By Sonu Kumar",
-              style: TextStyle(fontFamily: 'mono', fontWeight: FontWeight.w100),
+              style: TextStyle( fontWeight: FontWeight.w300),
             )
           ],
         ),
