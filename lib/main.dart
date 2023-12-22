@@ -28,7 +28,7 @@ class home extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(
-              height: 50,
+              height: 30,
             ),
             Row(
               children: [
@@ -175,7 +175,7 @@ class home extends StatelessWidget {
               style: TextStyle(fontFamily: 'mono'),
               textAlign: TextAlign.justify,
             ),
-            SizedBox(height: 60,),
+            SizedBox(height: 10,),
             Text(
               "Created By Sonu Kumar",
               style: TextStyle(fontFamily: 'mono', fontWeight: FontWeight.w100),
